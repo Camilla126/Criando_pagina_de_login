@@ -1,5 +1,5 @@
 import { FaUser, FaLock } from "react-icons/fa";
-
+import { useState } from "react";
 
 const Login = () => {
     return (
@@ -25,7 +25,10 @@ const Login = () => {
 
                 <button>Entrar</button>
 
-                <div className="signup-link"></div>
+                <div className="signup-link">
+                    <p>Não tem uma conta? <a href="#"></a>Registrar</p>
+                </div>
+
             </form>
         </div>
     )
