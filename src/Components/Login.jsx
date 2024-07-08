@@ -19,14 +19,14 @@ const handleSubmit = (event) => {
         <div className="container">
             <form onSubmit={handleSubmit}>
                 <h1>Faça Login</h1>
-                <div>
+                <div className="input-field">
                     <input type="email"
                      placeholder="E-mail"
                      required
                      onChange={(e) => setUsername(e.target.value)}  />
                     <FaUser className="icon" />
                 </div>
-                <div>
+                <div className="input-field">
                     <input type="password" placeholder="Senha"
                     onChange={(e) => setPassword(e.target.value)} />
                     <FaLock className="icon" />
