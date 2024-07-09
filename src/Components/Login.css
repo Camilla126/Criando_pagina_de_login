@@ -89,7 +89,7 @@
     text-shadow: none;
 }
 
-.signup-link:hover{
-    color: #FFF;
-    text-decoration: underline;
-}
+.registrer:hover {
+color: #FFF;
+text-decoration: underline;
+ }
